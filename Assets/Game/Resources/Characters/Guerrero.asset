@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a456b7c1ef0c68e4caf41b83914ee329, type: 3}
+  m_Name: Guerrero
+  m_EditorClassIdentifier: 
+  name: Guerrero
+  description: 
+  battleSprite: {fileID: -86596999, guid: 4f059dbc183d11a44b065c7f99188274, type: 3}
+  dialogueSprite: {fileID: 2030153403, guid: a3a81e91b4c6ac14d876fdffb3c6a550, type: 3}
+  worldSprite: {fileID: -1456715144, guid: e1569a4407e78a34d80991792bb7b0ba, type: 3}
+  nivel: 2
+  baseClass: 9
+  clases: 09000000
+  resistencias: 
+  debilidades: 
+  invulnerabilidad: 
+  maxHp: 24
+  fuerza: 15
+  destreza: 13
+  constitucion: 14
+  inteligencia: 8
+  sabiduria: 10
+  carisma: 12
+  "modDa\xF1oFisico": 0
+  "modDa\xF1oMagico": 3
+  spellSlots1: 0
+  spellSlots2: 0
+  spellSlots3: 0
+  ataquesUsables:
+  - moveBase: {fileID: 11400000, guid: 91140c484d0ddb644ad2d49c9a7b33aa, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 172e0b08c94038b4eab228ebda18edc2, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 81ca9113c6985114180aba62717467c9, type: 2}
+    level: 1

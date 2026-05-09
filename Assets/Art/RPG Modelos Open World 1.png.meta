@@ -1,0 +1,1887 @@
+fileFormatVersion: 2
+guid: e1569a4407e78a34d80991792bb7b0ba
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1136
+        width: 36
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d5f3bfb4a35fa9449eaabb7e5234432
+      internalID: 504782564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_1
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1136
+        width: 36
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ce72d42eb90c9e4da52c814f242b02e
+      internalID: -1929990999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_2
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1136
+        width: 36
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9825bbfa0844a141ae3b5863fc3c83c
+      internalID: 1217580647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_3
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1136
+        width: 36
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d97e1acf5da4ad84aa1adfbb69a73858
+      internalID: 1313353608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_4
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1136
+        width: 36
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f298d87fd4288445a75982f63a2f413
+      internalID: -1456715144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_5
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 1136
+        width: 32
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 451fd6a1cd50588488868dd3b4d39e26
+      internalID: 943048251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_6
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 1136
+        width: 36
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4615ee45fdeb12241b6e7bb2b062f6f4
+      internalID: -640811155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_7
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 1136
+        width: 32
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbec7468f81397d4ab665bf0fa88b1a3
+      internalID: -832469418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_8
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 1135
+        width: 32
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb44f4b5734494f46a10b084abca4276
+      internalID: -1798395252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_9
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 1135
+        width: 32
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb9164bb16862e04bb499e25bb37ccb0
+      internalID: -1688250522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_10
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1135
+        width: 32
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f16359024bd4ce4884ee7b89e8d898d
+      internalID: 2129297658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_11
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 1135
+        width: 32
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c69cb8bfa92663458d5b96df48d5768
+      internalID: -1205512698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_12
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1065
+        width: 34
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d744dbd157febba4da1b842be23f63c8
+      internalID: 2091225203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_13
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1064
+        width: 34
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef98ff144151be145b60b928ce820577
+      internalID: 1139786655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_14
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1066
+        width: 34
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a36d4dcb554491943b07ebfb055e8f62
+      internalID: -1901665800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_15
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 1066
+        width: 34
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f22ab6b7965476b4f99f25d28ae294c3
+      internalID: 2040985041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_16
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1065
+        width: 28
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 315245c72a1dcc24d9054ded947b5916
+      internalID: 689644053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_17
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 1064
+        width: 32
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e41612d59a8fd0e43bf8006c581e87a9
+      internalID: 901112805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_18
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 1066
+        width: 28
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 933310df785469d45ac637610d4d316e
+      internalID: -940998397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_19
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 1066
+        width: 34
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d78d8377e2273d4aab26e88b67938e9
+      internalID: 1110206291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_20
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 1065
+        width: 32
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f3fa9ef5dc2d6b4d8e07be7f9342f29
+      internalID: -222447842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_21
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 1065
+        width: 32
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e337f660efc7c8f4989fae2bcae93a88
+      internalID: -936190575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_22
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 1065
+        width: 32
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9871d79d4eea42b4e8208411d689b0be
+      internalID: 1402170330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_23
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 1065
+        width: 32
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f6485e4b60130c4c87cd2873c1022be
+      internalID: 1558259904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_24
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 992
+        width: 34
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 586e52a2ac13e0a478d08dfbb57b02db
+      internalID: -1800420813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_25
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 993
+        width: 34
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60480da1d3332f7439b23cbd31936147
+      internalID: 1132113895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_26
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 993
+        width: 34
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efe51cbed1df731429de5f77e9d09419
+      internalID: 423824343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_27
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 992
+        width: 34
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2683703dfaeeb44788ded7ea72168f5
+      internalID: 1150513971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_28
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 992
+        width: 28
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4f1a2c77f43d204d93a96c8127e4d2f
+      internalID: 192556926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_29
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 993
+        width: 34
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee612d6faa53be741a8705f99a31ed87
+      internalID: -820191904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_30
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 993
+        width: 28
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a404c10be341f04c87e5fa0ab7bdc8d
+      internalID: 780268469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_31
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 992
+        width: 32
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7dd2fa71b591ea41bb55183f03b2d94
+      internalID: -1403720047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_32
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 991
+        width: 32
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3a1c28e024fbb44b9e894b397c0561e
+      internalID: 1197508482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_33
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 991
+        width: 32
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac2c71f90031829499958b321f06237c
+      internalID: -418283114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_34
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 991
+        width: 32
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfd7a3551ade3624590fa032d7ee83a2
+      internalID: -1321716079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_35
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 991
+        width: 32
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd7f6df5f5ae5444d99cba6ae6375865
+      internalID: 173778275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_36
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 920
+        width: 36
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84944191119afb74abcdac573902e160
+      internalID: 1668797120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_37
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 920
+        width: 36
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35e7a7831bf3d1f4b9c70b7f87aa9819
+      internalID: -1282851287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_38
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 920
+        width: 36
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4bdd36ff7cb3c84793fe06e0b373d58
+      internalID: 1496196742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_39
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 920
+        width: 36
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3265bd395e81c34bb68bd763a3644a4
+      internalID: -1516591076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_40
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 920
+        width: 36
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d4674a70e05ebe45a4f83c90ec24259
+      internalID: 558348891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_41
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 920
+        width: 32
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97a9fbdc6c5911f498e7eb16bf599fc6
+      internalID: 1934683469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_42
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 920
+        width: 36
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74f782f0f6baa7a43a4444301394fa76
+      internalID: 1627234858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_43
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 920
+        width: 32
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f0d1e9802824f949a670f37683c3ac7
+      internalID: -1901877298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_44
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 920
+        width: 32
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43474c8df4520ed4f8f906ff873814f4
+      internalID: -284411368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_45
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 920
+        width: 32
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a0c3ada856be6f4aa02e65b9f1e163f
+      internalID: -1226929936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_46
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 920
+        width: 32
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af4fcb6c62d410b438084a2eb905b55a
+      internalID: -1844464320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_47
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 920
+        width: 32
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf42f1f68e2f0c149b46360f85a21c52
+      internalID: 719738866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_48
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 672
+        width: 36
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6438ea9d07ff5f942bb9fdc350179b99
+      internalID: 1338440001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_49
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 672
+        width: 36
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b15760f1692d1645b9b962a85da9cdc
+      internalID: 295348726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_50
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 672
+        width: 36
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cec7510d0a08d8c428933895a0b44288
+      internalID: 1877328476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_51
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 672
+        width: 36
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af56ef83aeea72c4692b82b67e3882f1
+      internalID: -299775247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_52
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 672
+        width: 40
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1ec8074b0e3371499c797db49f2a018
+      internalID: -2018675293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_53
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 672
+        width: 40
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f58dcbfed6d4dd4aa307d7df80a9dd0
+      internalID: 1033295024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_54
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 672
+        width: 40
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35cd66f640520744e90d9a7603abff3d
+      internalID: 2075338181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_55
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 672
+        width: 40
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc7b1cfe141edf94581c3c5b3e84ea06
+      internalID: 1923667887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_56
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 601
+        width: 32
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c077ba538be0fdc4bb1894cbde3d8806
+      internalID: -1299587890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_57
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 600
+        width: 32
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7bd6f3574fce7e4eb09a48fbe094efa
+      internalID: -85176548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_58
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 602
+        width: 32
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d30df8186eda0614a8764bec22ec03b7
+      internalID: 1432803719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_59
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 601
+        width: 32
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f59a176d54da4dc48a8ec4a985490455
+      internalID: -600261274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_60
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 601
+        width: 36
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 117ece4b155a06146b3eb0585cfe3adc
+      internalID: -1281818137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_61
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 600
+        width: 36
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af0ea9e79678cb84584c6338f0f2b309
+      internalID: -1118322595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_62
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 602
+        width: 36
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5edda873d47ce8246bcd63606c1fd849
+      internalID: 281803396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_63
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 602
+        width: 36
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d32494fbece5e0842b5dfd63c0e6fcbb
+      internalID: 180164873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_64
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 528
+        width: 32
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5a9919f9c112c547a84981d7da4dc84
+      internalID: 692060303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_65
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 528
+        width: 32
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 516b604d138720b4b9d580775ab52da3
+      internalID: 1759935322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_66
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 529
+        width: 32
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cd9c588ff10c08458308e8f5fcc38cf
+      internalID: -144454069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_67
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 527
+        width: 32
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93b66645974ebeb4ead66a9444c94944
+      internalID: 1886921630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_68
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 528
+        width: 36
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5383074e7402f547a6d296abc586580
+      internalID: -1026360392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_69
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 529
+        width: 36
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 621cc1024ab96894496a37731a5006b7
+      internalID: 2056886527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_70
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 529
+        width: 36
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c924bdeaf9b8952498ee5011d72cd16b
+      internalID: 303466043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_71
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 528
+        width: 36
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3539eb7626866b44bd9889561444690
+      internalID: -555739482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_72
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 456
+        width: 36
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56200ab80601d6846b00ed8fdc7c5110
+      internalID: -288813582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_73
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 456
+        width: 36
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5db93e120c979c340b315eb5cd2ae9ca
+      internalID: 350589653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_74
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 456
+        width: 36
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd20fcba76284594c90f86094776ba84
+      internalID: 1285560131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_75
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 456
+        width: 36
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1940310b3df0fbb42a9aa7948b6f3f23
+      internalID: 1910484668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_76
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 456
+        width: 40
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25ebd389ce39f28469cab392996e2d03
+      internalID: 1112162849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_77
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 456
+        width: 40
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9168afc7509bd40459296b36fa061632
+      internalID: 429646718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_78
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 456
+        width: 40
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34fcef7fbe337e140a7af065a176b8ea
+      internalID: 2107189782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG Modelos Open World 1_79
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 456
+        width: 40
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04c9857d6774ac841a05528e5c64fc77
+      internalID: -55649834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      RPG Modelos Open World 1_0: 504782564
+      RPG Modelos Open World 1_1: -1929990999
+      RPG Modelos Open World 1_10: 2129297658
+      RPG Modelos Open World 1_11: -1205512698
+      RPG Modelos Open World 1_12: 2091225203
+      RPG Modelos Open World 1_13: 1139786655
+      RPG Modelos Open World 1_14: -1901665800
+      RPG Modelos Open World 1_15: 2040985041
+      RPG Modelos Open World 1_16: 689644053
+      RPG Modelos Open World 1_17: 901112805
+      RPG Modelos Open World 1_18: -940998397
+      RPG Modelos Open World 1_19: 1110206291
+      RPG Modelos Open World 1_2: 1217580647
+      RPG Modelos Open World 1_20: -222447842
+      RPG Modelos Open World 1_21: -936190575
+      RPG Modelos Open World 1_22: 1402170330
+      RPG Modelos Open World 1_23: 1558259904
+      RPG Modelos Open World 1_24: -1800420813
+      RPG Modelos Open World 1_25: 1132113895
+      RPG Modelos Open World 1_26: 423824343
+      RPG Modelos Open World 1_27: 1150513971
+      RPG Modelos Open World 1_28: 192556926
+      RPG Modelos Open World 1_29: -820191904
+      RPG Modelos Open World 1_3: 1313353608
+      RPG Modelos Open World 1_30: 780268469
+      RPG Modelos Open World 1_31: -1403720047
+      RPG Modelos Open World 1_32: 1197508482
+      RPG Modelos Open World 1_33: -418283114
+      RPG Modelos Open World 1_34: -1321716079
+      RPG Modelos Open World 1_35: 173778275
+      RPG Modelos Open World 1_36: 1668797120
+      RPG Modelos Open World 1_37: -1282851287
+      RPG Modelos Open World 1_38: 1496196742
+      RPG Modelos Open World 1_39: -1516591076
+      RPG Modelos Open World 1_4: -1456715144
+      RPG Modelos Open World 1_40: 558348891
+      RPG Modelos Open World 1_41: 1934683469
+      RPG Modelos Open World 1_42: 1627234858
+      RPG Modelos Open World 1_43: -1901877298
+      RPG Modelos Open World 1_44: -284411368
+      RPG Modelos Open World 1_45: -1226929936
+      RPG Modelos Open World 1_46: -1844464320
+      RPG Modelos Open World 1_47: 719738866
+      RPG Modelos Open World 1_48: 1338440001
+      RPG Modelos Open World 1_49: 295348726
+      RPG Modelos Open World 1_5: 943048251
+      RPG Modelos Open World 1_50: 1877328476
+      RPG Modelos Open World 1_51: -299775247
+      RPG Modelos Open World 1_52: -2018675293
+      RPG Modelos Open World 1_53: 1033295024
+      RPG Modelos Open World 1_54: 2075338181
+      RPG Modelos Open World 1_55: 1923667887
+      RPG Modelos Open World 1_56: -1299587890
+      RPG Modelos Open World 1_57: -85176548
+      RPG Modelos Open World 1_58: 1432803719
+      RPG Modelos Open World 1_59: -600261274
+      RPG Modelos Open World 1_6: -640811155
+      RPG Modelos Open World 1_60: -1281818137
+      RPG Modelos Open World 1_61: -1118322595
+      RPG Modelos Open World 1_62: 281803396
+      RPG Modelos Open World 1_63: 180164873
+      RPG Modelos Open World 1_64: 692060303
+      RPG Modelos Open World 1_65: 1759935322
+      RPG Modelos Open World 1_66: -144454069
+      RPG Modelos Open World 1_67: 1886921630
+      RPG Modelos Open World 1_68: -1026360392
+      RPG Modelos Open World 1_69: 2056886527
+      RPG Modelos Open World 1_7: -832469418
+      RPG Modelos Open World 1_70: 303466043
+      RPG Modelos Open World 1_71: -555739482
+      RPG Modelos Open World 1_72: -288813582
+      RPG Modelos Open World 1_73: 350589653
+      RPG Modelos Open World 1_74: 1285560131
+      RPG Modelos Open World 1_75: 1910484668
+      RPG Modelos Open World 1_76: 1112162849
+      RPG Modelos Open World 1_77: 429646718
+      RPG Modelos Open World 1_78: 2107189782
+      RPG Modelos Open World 1_79: -55649834
+      RPG Modelos Open World 1_8: -1798395252
+      RPG Modelos Open World 1_9: -1688250522
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

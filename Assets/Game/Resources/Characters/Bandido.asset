@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a456b7c1ef0c68e4caf41b83914ee329, type: 3}
+  m_Name: Bandido
+  m_EditorClassIdentifier: 
+  name: Bandido
+  description: 
+  battleSprite: {fileID: -962475519, guid: 8e6b266bd53065048bf05e3788a76cde, type: 3}
+  dialogueSprite: {fileID: -962475519, guid: 8e6b266bd53065048bf05e3788a76cde, type: 3}
+  worldSprite: {fileID: 693553918, guid: 258655711c2812e4fa01d5ac895e81a6, type: 3}
+  nivel: 1
+  baseClass: 14
+  clases: 0e000000
+  resistencias: 
+  debilidades: 
+  invulnerabilidad: 
+  maxHp: 22
+  fuerza: 8
+  destreza: 15
+  constitucion: 14
+  inteligencia: 12
+  sabiduria: 13
+  carisma: 10
+  "modDa\xF1oFisico": 1
+  "modDa\xF1oMagico": 3
+  spellSlots1: 0
+  spellSlots2: 0
+  spellSlots3: 0
+  ataquesUsables:
+  - moveBase: {fileID: 11400000, guid: 81ca9113c6985114180aba62717467c9, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 172e0b08c94038b4eab228ebda18edc2, type: 2}
+    level: 1

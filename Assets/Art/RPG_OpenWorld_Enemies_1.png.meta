@@ -1,0 +1,831 @@
+fileFormatVersion: 2
+guid: 258655711c2812e4fa01d5ac895e81a6
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RPG_OpenWorld_Enemies_1_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1132
+        width: 36
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b91ca7277dfb824c906e7bf563dee53
+      internalID: 693553918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_OpenWorld_Enemies_1_1
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1132
+        width: 36
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c11af94bf1097d4eb0ce71ebd136749
+      internalID: -376138381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_OpenWorld_Enemies_1_2
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 1132
+        width: 36
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74d4deeaa5219cf4c8914add5667b4ae
+      internalID: 2108311208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_OpenWorld_Enemies_1_3
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 1132
+        width: 36
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9d1a86f5ac1913429b208f81cff0476
+      internalID: -1163431152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_OpenWorld_Enemies_1_4
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1132
+        width: 36
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e358077cab0e19a48b60e246cf5196f5
+      internalID: -43855944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_OpenWorld_Enemies_1_5
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 1132
+        width: 36
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f54e7cdcc29033468094781c1f687dd
+      internalID: -1479315770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_OpenWorld_Enemies_1_6
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 1132
+        width: 36
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4625974b65c89a547a35e3d3d69a2075
+      internalID: 285808948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_OpenWorld_Enemies_1_7
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 1132
+        width: 36
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 566e4c0eeb4144a429e37fea7ea0d930
+      internalID: -1097663766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_OpenWorld_Enemies_1_8
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1060
+        width: 36
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa4c49f9ce1dc554a8d88b2fbea741bc
+      internalID: 733286823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_OpenWorld_Enemies_1_9
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1060
+        width: 36
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c1dcf15065f1784683378d69e0c658d
+      internalID: 1597459847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_OpenWorld_Enemies_1_10
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1060
+        width: 36
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1969df1ac0491c349928b0915d9d42aa
+      internalID: 1788082529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_OpenWorld_Enemies_1_11
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 1060
+        width: 36
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3189a86a8f5781d43ab2a797a780c4e4
+      internalID: 51346074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_OpenWorld_Enemies_1_12
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1061
+        width: 38
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d98f10282a09b94eafa234a37f3c9f2
+      internalID: 506985741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_OpenWorld_Enemies_1_13
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1060
+        width: 38
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce13eb835f530e044bdc37a70a7c571c
+      internalID: -1547408787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_OpenWorld_Enemies_1_14
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1061
+        width: 38
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11f1cfd2ab25b5f4e8577828860684e4
+      internalID: 932918489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_OpenWorld_Enemies_1_15
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 1061
+        width: 38
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdb5ceedc64788742bb0c17681b7274c
+      internalID: -427637678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_OpenWorld_Enemies_1_16
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 988
+        width: 36
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae6fb1a36a216b546aae82c60adf118f
+      internalID: 839384842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_OpenWorld_Enemies_1_17
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 988
+        width: 36
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70d3a0e591c692946a8440ca2237646e
+      internalID: -2026829714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_OpenWorld_Enemies_1_18
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 988
+        width: 36
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e00c31e0fae81a44bfab70f035a057b
+      internalID: -2128866740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_OpenWorld_Enemies_1_19
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 988
+        width: 36
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ebe7e9231e7ac540840758498e2c16a
+      internalID: -367547843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_OpenWorld_Enemies_1_20
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 988
+        width: 38
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ee8d63c3af3eee45889cfff138c0416
+      internalID: 1099897644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_OpenWorld_Enemies_1_21
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 989
+        width: 38
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49d9ac03a6a31f8488ea3e030f10ebf8
+      internalID: 1404675574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_OpenWorld_Enemies_1_22
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 989
+        width: 38
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04aa7f7065f26504c97b68708f032b2a
+      internalID: 954175586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_OpenWorld_Enemies_1_23
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 988
+        width: 38
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d27ddf9577cbff49b2fccb7f81f3bab
+      internalID: -1163762554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_OpenWorld_Enemies_1_24
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 916
+        width: 36
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06becd60ca6f09642956c5fc54e79eee
+      internalID: 1025991091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_OpenWorld_Enemies_1_25
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 916
+        width: 36
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 991144de08ccf0e42971aeb34a1e6ddf
+      internalID: -1810955053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_OpenWorld_Enemies_1_26
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 916
+        width: 36
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 505a3de94aa643f499a7b07bee33960b
+      internalID: 1584398646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_OpenWorld_Enemies_1_27
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 916
+        width: 36
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1c6ed53cb7402f48a21a1eac714f64c
+      internalID: -1210764439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_OpenWorld_Enemies_1_28
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 916
+        width: 36
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32622f478987ef74eb8eb93fb0fad220
+      internalID: 1075420418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_OpenWorld_Enemies_1_29
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 916
+        width: 36
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 979b9ecae654f5542aa8b84d4eacda24
+      internalID: -1118761747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_OpenWorld_Enemies_1_30
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 916
+        width: 36
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e344e1997d55bf4ca3601494a9bbb42
+      internalID: 235960773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_OpenWorld_Enemies_1_31
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 916
+        width: 36
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe69a37a956715c4497547a364df1eee
+      internalID: -560917080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      RPG_OpenWorld_Enemies_1_0: 693553918
+      RPG_OpenWorld_Enemies_1_1: -376138381
+      RPG_OpenWorld_Enemies_1_10: 1788082529
+      RPG_OpenWorld_Enemies_1_11: 51346074
+      RPG_OpenWorld_Enemies_1_12: 506985741
+      RPG_OpenWorld_Enemies_1_13: -1547408787
+      RPG_OpenWorld_Enemies_1_14: 932918489
+      RPG_OpenWorld_Enemies_1_15: -427637678
+      RPG_OpenWorld_Enemies_1_16: 839384842
+      RPG_OpenWorld_Enemies_1_17: -2026829714
+      RPG_OpenWorld_Enemies_1_18: -2128866740
+      RPG_OpenWorld_Enemies_1_19: -367547843
+      RPG_OpenWorld_Enemies_1_2: 2108311208
+      RPG_OpenWorld_Enemies_1_20: 1099897644
+      RPG_OpenWorld_Enemies_1_21: 1404675574
+      RPG_OpenWorld_Enemies_1_22: 954175586
+      RPG_OpenWorld_Enemies_1_23: -1163762554
+      RPG_OpenWorld_Enemies_1_24: 1025991091
+      RPG_OpenWorld_Enemies_1_25: -1810955053
+      RPG_OpenWorld_Enemies_1_26: 1584398646
+      RPG_OpenWorld_Enemies_1_27: -1210764439
+      RPG_OpenWorld_Enemies_1_28: 1075420418
+      RPG_OpenWorld_Enemies_1_29: -1118761747
+      RPG_OpenWorld_Enemies_1_3: -1163431152
+      RPG_OpenWorld_Enemies_1_30: 235960773
+      RPG_OpenWorld_Enemies_1_31: -560917080
+      RPG_OpenWorld_Enemies_1_4: -43855944
+      RPG_OpenWorld_Enemies_1_5: -1479315770
+      RPG_OpenWorld_Enemies_1_6: 285808948
+      RPG_OpenWorld_Enemies_1_7: -1097663766
+      RPG_OpenWorld_Enemies_1_8: 733286823
+      RPG_OpenWorld_Enemies_1_9: 1597459847
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
