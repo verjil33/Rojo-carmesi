@@ -20,9 +20,9 @@ MonoBehaviour:
   nivel: 1
   baseClass: 14
   clases: 0e000000
-  resistencias: 
-  debilidades: 
-  invulnerabilidad: 
+  resistencias: 00000000
+  debilidades: 00000000
+  invulnerabilidad: 00000000
   maxHp: 22
   fuerza: 8
   destreza: 15

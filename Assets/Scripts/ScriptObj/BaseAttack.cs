@@ -57,4 +57,17 @@ public class BaseAttack : ScriptableObject
         get { return modDaño; }
     }
 
+
+    /* 
+     public bool IsSpecial    
+    {
+        if(type == tipo de pokemon special)
+            return true;
+        else
+            return false;
+
+    }
+     
+    
+     */
 }

@@ -17,12 +17,12 @@ MonoBehaviour:
   battleSprite: {fileID: -86596999, guid: 4f059dbc183d11a44b065c7f99188274, type: 3}
   dialogueSprite: {fileID: 2030153403, guid: a3a81e91b4c6ac14d876fdffb3c6a550, type: 3}
   worldSprite: {fileID: -1456715144, guid: e1569a4407e78a34d80991792bb7b0ba, type: 3}
-  nivel: 2
+  nivel: 3
   baseClass: 9
   clases: 09000000
-  resistencias: 
-  debilidades: 
-  invulnerabilidad: 
+  resistencias: 00000000
+  debilidades: 00000000
+  invulnerabilidad: 00000000
   maxHp: 24
   fuerza: 15
   destreza: 13

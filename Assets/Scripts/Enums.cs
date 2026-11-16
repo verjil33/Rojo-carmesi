@@ -71,3 +71,9 @@ public enum Caracteristica
     Sabiduria,
     Carisma
 }
+
+public enum GameState
+{
+    FreeRoam,
+    Battle
+}

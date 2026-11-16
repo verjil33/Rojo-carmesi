@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,11 +6,14 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public float moveSpeed;
+    public LayerMask solidObjectLayer;
+    public LayerMask longGrassLayer;
+    public event Action OnEncountered;
     private bool isMoving;
     private Vector2 input;
     private Animator animator;
-    public LayerMask solidObjectLayer;
-    public LayerMask longGrassLayer;
+
+
 
     private void Awake()
     {
@@ -23,7 +27,7 @@ public class PlayerController : MonoBehaviour
     }
 
     // Update is called once per frame
-    private void Update()
+    public void HandleUpdate()
     {
         if (!isMoving) // lo hace en el primer video
         {
@@ -73,9 +77,10 @@ public class PlayerController : MonoBehaviour
     {
         if (Physics2D.OverlapCircle(transform.position, 0.2f, longGrassLayer) != null)
         {
-            if (Random.Range(1, 101) <= 10)
+            if (UnityEngine.Random.Range(1, 101) <= 10)
             {
-                Debug.Log("Random Encounter");
+                animator.SetBool("isMoving", false);
+                OnEncountered();
             }
         }
             

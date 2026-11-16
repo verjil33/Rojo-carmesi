@@ -10,20 +10,27 @@ public class BattleSystem : MonoBehaviour
     [SerializeField] BattleHud playerHUD;
     [SerializeField] BattleHud enemyHUD;
     [SerializeField] BattleDialogBox dialogBox;
+
+    public event Action<bool> OnBattleOver;
+
     BattleState state;
     int curAction;
-    
 
-    private void Start()
+    CharacterParty playerParty;
+    Character wildCharacter;
+
+    public void StartBattle(CharacterParty chaParty, Character wildCharacter)
     {
+        this.playerParty = chaParty;
+        this.wildCharacter = wildCharacter;
         StartCoroutine(SetUpBattle());
     }
 
 
     public IEnumerator SetUpBattle()
     {
-        playerUnit.SetUp();
-        enemyUnit.SetUp();
+        playerUnit.SetUp(playerParty.GetHealtyCharacter());
+        enemyUnit.SetUp(wildCharacter);
         playerHUD.SetData(playerUnit.Character);
         enemyHUD.SetData(enemyUnit.Character);
 
@@ -53,13 +60,20 @@ public class BattleSystem : MonoBehaviour
     {
         state = BattleState.Busy;
         var move = playerUnit.Character.Attacks[curAction];
+        move.PP--;//en vez de bajar el pp, si es un hechizo, consumir un slot
         yield return dialogBox.TypeDialog($"{playerUnit.Character.Base.Name} uso {move.Base.Name}");
+        playerUnit.PlayAttackAnimation();
+        yield return new WaitForSeconds(1f);
+        enemyUnit.PlayHitAnimation();
         var damageDetails = enemyUnit.Character.TakeDamage(move, playerUnit.Character);
         yield return enemyHUD.UpdateHP();
         yield return ShowDamageDetails(damageDetails);
         if (damageDetails.Fainted)
         {
             yield return dialogBox.TypeDialog($"{enemyUnit.Character.Base.Name} esta derrotado");
+            enemyUnit.PlayFaintAnimation();
+            yield return new WaitForSeconds(1f);
+            OnBattleOver(true);
         }
         else
         {
@@ -70,13 +84,38 @@ public class BattleSystem : MonoBehaviour
     {
         state = BattleState.EnemyMove;
         var move = enemyUnit.Character.GetRandomMove();
+        move.PP--;//en vez de bajar el pp, si es un hechizo, consumir un slot
         yield return dialogBox.TypeDialog($"{enemyUnit.Character.Base.Name} uso {move.Base.Name}");
+        enemyUnit.PlayAttackAnimation();
+        yield return new WaitForSeconds(1f);
+        playerUnit.PlayHitAnimation();
         var damageDetails = playerUnit.Character.TakeDamage(move, enemyUnit.Character);
         yield return playerHUD.UpdateHP();
         yield return ShowDamageDetails(damageDetails);
         if (damageDetails.Fainted)
         {
+
             yield return dialogBox.TypeDialog($"{playerUnit.Character.Base.Name} esta derrotado");
+            playerUnit.PlayFaintAnimation();
+            yield return new WaitForSeconds(1f);
+
+            var nextCharacter = playerParty.GetHealtyCharacter();
+            if(nextCharacter != null)
+            {
+                playerUnit.SetUp(nextCharacter);
+                playerHUD.SetData(nextCharacter);
+
+                dialogBox.SetMoveNames(nextCharacter.Attacks);
+
+                yield return dialogBox.TypeDialog($"Ve {nextCharacter.Base.Name}!");
+
+                PlayerAction();
+            }
+            else
+            {
+
+                OnBattleOver(false);
+            }
         }
         else
         {
@@ -97,7 +136,7 @@ public class BattleSystem : MonoBehaviour
 
     }
 
-    private void Update()
+    public void HandleUpdate()
     {
         switch (state)
         {

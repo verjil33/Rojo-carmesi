@@ -2,10 +2,24 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[System.Serializable]
 public class Character
 {
-    public BaseCharacter Base { get; set; }
-    public int Level { get; set; }
+    [SerializeField] BaseCharacter _base;
+    [SerializeField] int level;
+    public BaseCharacter Base
+    {
+        get
+        {
+            return _base;
+        }
+    }
+    public int Level {
+        get 
+        {
+            return level;
+        }
+    }
     public int CurHp { get; set; }
 
     public int curSlots1 { get; set; }
@@ -13,10 +27,8 @@ public class Character
     public int curSlots3 { get; set; }
 
     public List<Attacks> Attacks { get; set; }
-    public Character(BaseCharacter pBase, int pLevel)
+    public void Init()
     {
-        Base = pBase;
-        Level = pLevel;
         CurHp = MaxHp;
         Attacks = new List<Attacks>();
         foreach(var move in Base.AtaquesUsables)
@@ -41,11 +53,13 @@ public class Character
 
         
         /*
-        float type = TypeChart.GetEffectiveness(move.Base.Type, this.Base.GetType1) * TypeChart.GetEffectiveness(move.Base.Type, this.Base.GetType2)        
+        float type = TypeChart.GetEffectiveness(move.Base.Type, this.Base.GetType1) * TypeChart.GetEffectiveness(move.Base.Type, this.Base.GetType2)
         //estilo pokemon!!!
+        floar attack = (move.Base.IsSpecial) ? attacker.SpAttack : attacker.Attack;
+        floar defense = (move.Base.IsSpecial) ? attacker.SpDefense : attacker.Attack;
         float modifiers = Random.Range(0.85f, 1f) * type;
         float a = (2 * attacker.Level + 10) / 250f;
-        float d = a * move.Base.Power * ((float)attacker.Attack / Defense) + 2;
+        float d = a * move.Base.Power * ((float)attack / defense) + 2;
         int damage = Mathf.FloorToInt(d * modifiers);
 
         int daño = move.Base.Power + modificadorDaño;
